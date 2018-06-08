@@ -27,7 +27,7 @@
 		new BMap.Point(pEnd.lng,pStart.lat),
 		new BMap.Point(pEnd.lng,pEnd.lat),
 		new BMap.Point(pStart.lng,pEnd.lat)
-	], {strokeColor:"blue", strokeWeight:2, strokeOpacity:0.5});  //创建矩形
+	], {strokeColor:"red", strokeWeight:2, strokeOpacity:0.5});  //创建矩形
 	
 	//添加覆盖物
 	function add_overlay(){
